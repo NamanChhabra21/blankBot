@@ -20,7 +20,8 @@ Designed to provide quick, non-serious, and sometimes rocking responses through 
 
 > You are free to use, modify, copy, distribute, and sell this project or modified versions of it.
 ---
-<img src="https://raw.githubusercontent.com/NamanChhabra21/blanBot/main/blankBotVideo.gif" width="350">
+
+![gifImage](https://github.com/NamanChhabra21/blankBot/blob/main/blankBotVideo.gif?raw=true)
 
 ---
 ## Tools Used
