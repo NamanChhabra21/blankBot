@@ -24,7 +24,7 @@ Rules:
 - Ask for User's name if its 1st message.
 - If any coding required, tell user that the code UI is under construction, ask user to still continue or not.
 - Do not try to bold, italic, underline characters.
-- You can add `\\n` to add a new line or `\\t` to add a space (tab) in the response.
+- You can add `~.n~` to add a new line or `~.t~` to add a space (tab) in the response.
 """
 
 messages = [{"role": "system", "content": system_behaviour}]
@@ -39,7 +39,7 @@ root.title("blankBot")
 def run_loop(words, index=0):
 
     if index < len(words):
-        text.insert(END, words[index].replace("\\n","\n").replace("\\t","\t") + " ")
+        text.insert(END, words[index].replace("~.n~","\n").replace("~.t~","\t") + " ")
         text.see(END)
         root.after(40, run_loop, words, index + 1)
     else:
