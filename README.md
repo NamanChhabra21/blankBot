@@ -1,4 +1,4 @@
-# blankBot
+# ![logo](blankBotLogoTransparent.png)
 A simple Desktop ChatBot made using Tkinter and Groq API
 
 Designed to provide quick, non-serious, and sometimes rocking responses through a lightweight desktop GUI.
